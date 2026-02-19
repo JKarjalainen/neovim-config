@@ -1,0 +1,8 @@
+""rider config
+let mapleader = " "
+nnoremap <leader>ff :action SearchEverywhere<CR>
+nnoremap gI :action GotoImplementation<CR>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gr :action FindUsages<CR>
+nnoremap <leader>ca :action RefactoringMenu<CR>
+
